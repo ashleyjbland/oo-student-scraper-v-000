@@ -30,7 +30,7 @@ class Scraper
     student[:profile_quote]= profile_html.css("div.profile-quote").text.strip
     student[:bio]= profile_html.css("div.bio-content div.description-holder").text.strip
     #profile_html.css("div.social-icon-container a").each do |k, v|
-    students
+    student
    end
 
 
