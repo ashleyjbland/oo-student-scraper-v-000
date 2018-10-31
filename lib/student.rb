@@ -8,6 +8,7 @@ class Student
     student_hash.each do |k, v|
       #self.k = v
       self.send("#{k}=", v)
+      @@all << self
     end
   end
 
